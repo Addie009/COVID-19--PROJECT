@@ -71,7 +71,7 @@ and dea.date = vac.date
 where dea.continent is not null
 order by 2,3
 
---Using ETC
+--Using CTE
 WITH PopvsVac (continent, date, location, population, new_vaccinations, rollingpeoplevaccinated)
 as
 (
